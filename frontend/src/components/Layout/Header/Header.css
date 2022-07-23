@@ -1,0 +1,78 @@
+.nav{
+  z-index: 15;
+  background-color: white;
+  padding: 1vmax;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+}
+
+
+.logoImage{width: 100px;
+  object-fit: contain;
+  margin-left: 50px;
+  margin-right: 10px;
+  justify-items: center;
+
+  
+}
+
+#logo{
+  transition:all 0.2s;
+  
+  transform: translateX(-58px);
+}
+
+#logoImage:hover{
+
+  transform: translateX(0);
+}
+
+.navlinks{
+  color: rgb(59, 59, 59);
+  text-decoration: none;
+  margin: 1vmax 1.2vmax;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 1.1vmax;
+ 
+}
+
+.navlinks:hover{
+  color: orangered;
+  text-decoration: none;
+}
+
+.searchbox{
+  position: relative;
+ left:5vmax;
+}
+
+.searchbox >input{
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.76);
+  width: 15vmax;
+  font-size: 1.1vmax;
+  outline: none;
+  color:rgb(61, 61, 61);
+  font-weight: 100;
+  
+}
+
+
+.searchbox > svg{
+  fill: rgb(61, 61, 61);
+}
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
